@@ -27,7 +27,10 @@ DOCKERHUB_USER=USERNAME
 DB_PASSWORD=YOUR_STRONG_PASSWORD
 REDMINE_SECRET_KEY_BASE=YOUR_GENERATED_SECRET
 ```
-
+Для генерации секретного ключа:
+```
+openssl rand -hex 64
+```
 Запустить приложение:
 
 ```bash
